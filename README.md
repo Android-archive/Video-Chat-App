@@ -4,9 +4,7 @@ This app allows you to make a video Call
 <img src="https://github.com/lvamsavarthan/Hify/blob/master/preview.png">
 <br>
 
-[![Hify](https://forthebadge.com/images/badges/built-by-developers.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
-[![Hify](https://forthebadge.com/images/badges/built-with-love.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
-[![Hify](https://forthebadge.com/images/badges/built-for-android.svg)](https://lvamsavarthan.github.io/lvstore/hify.html)
+[![Hify](https://forthebadge.com/images/badges/built-by-developers.svg)](https://kanwarpartapsingh.com)
 
 <br>
 
