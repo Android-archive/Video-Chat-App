@@ -24,13 +24,14 @@ Just a video chat app. This app is mostly completed but some bugs would be there
 <table>
 
   <tr>
-    <td> https://user-images.githubusercontent.com/39325207/75337668-7398b780-58b3-11ea-9658-a83783d16ea7.jpg </td>
-    <td> https://user-images.githubusercontent.com/39325207/75337677-75627b00-58b3-11ea-9daa-dd13153d868e.jpg </td>
+    <td> ![Notification](https://user-images.githubusercontent.com/39325207/75339236-25d17e80-58b6-11ea-91f9-b29be9860361.jpg) </td>
+    <td> ![Reg](https://user-images.githubusercontent.com/39325207/75339239-279b4200-58b6-11ea-8cbb-c7b1703bff75.jpg)</td>
   </tr>
   
   <tr>
-        <td> https://user-images.githubusercontent.com/39325207/75337682-75fb1180-58b3-11ea-8916-06ab68bc8867.jpg </td>
-        <td> https://user-images.githubusercontent.com/39325207/75337683-7693a800-58b3-11ea-92ad-03f394217c10.jpg </td>
+  <td> ![search](https://user-images.githubusercontent.com/39325207/75339245-2833d880-58b6-11ea-926e-0b27a0b245a8.jpg)</td>
+  <td> ![settings](https://user-images.githubusercontent.com/39325207/75339250-29650580-58b6-11ea-8cbe-247b9e767a3a.jpg)</td>
+
   </tr>
   
 </table>
