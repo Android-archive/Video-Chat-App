@@ -21,12 +21,22 @@ Just a video chat app. This app is mostly completed but some bugs would be there
 
 ## Screenshots
 
-![Notification](https://user-images.githubusercontent.com/39325207/75339236-25d17e80-58b6-11ea-91f9-b29be9860361.jpg)
-![Reg](https://user-images.githubusercontent.com/39325207/75339239-279b4200-58b6-11ea-8cbb-c7b1703bff75.jpg)
-  
-![search](https://user-images.githubusercontent.com/39325207/75339245-2833d880-58b6-11ea-926e-0b27a0b245a8.jpg)
-![settings](https://user-images.githubusercontent.com/39325207/75339250-29650580-58b6-11ea-8cbe-247b9e767a3a.jpg)
+<br/>
 
+![Reg](https://user-images.githubusercontent.com/39325207/75339239-279b4200-58b6-11ea-8cbb-c7b1703bff75.jpg)
+<br />
+<br />
+<br />
+![settings](https://user-images.githubusercontent.com/39325207/75339250-29650580-58b6-11ea-8cbe-247b9e767a3a.jpg)
+<br />
+<br />
+<br />
+![search](https://user-images.githubusercontent.com/39325207/75339245-2833d880-58b6-11ea-926e-0b27a0b245a8.jpg)
+<br />
+<br />
+<br />
+![Notification](https://user-images.githubusercontent.com/39325207/75339236-25d17e80-58b6-11ea-91f9-b29be9860361.jpg)
+<br />
 
 ## Developer
 
