@@ -23,7 +23,7 @@ Just a video chat app. This app is mostly completed but some bugs would be there
 
 <br/>
 <p float="left">
-![Reg](https://user-images.githubusercontent.com/39325207/75339239-279b4200-58b6-11ea-8cbb-c7b1703bff75.jpg?raw=true" width="170)
+![Reg](https://user-images.githubusercontent.com/39325207/75339239-279b4200-58b6-11ea-8cbb-c7b1703bff75.jpg)
 <br />
 <br />
 <br />
