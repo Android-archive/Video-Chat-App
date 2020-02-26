@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "676448931233",
+    "firebase_url": "https://chat-app-inc.firebaseio.com",
+    "project_id": "chat-app-inc",
+    "storage_bucket": "chat-app-inc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676448931233:android:03d3463b350ee673574fe0",
+        "android_client_info": {
+          "package_name": "com.royalbimrah.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676448931233-sai5af30pr4m5ojjde15mhnbqfap5qcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAg7geTLXoAVUuJnWjL-h5012x_kJWKCvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676448931233-sai5af30pr4m5ojjde15mhnbqfap5qcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

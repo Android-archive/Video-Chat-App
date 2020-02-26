@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical"
+    android:elevation="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="25dp"
+    android:layout_marginStart="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_notification"
+            android:layout_width="280dp"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@null"
+            android:src="@drawable/profile_image"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/name_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:text="@string/name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/image_notification" />
+
+        <Button
+            android:id="@+id/request_accept_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_notification"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginEnd="79dp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/accept_request"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/request_decline_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/request_accept_btn"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="79dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginBottom="12dp"
+            android:padding="5dp"
+            android:background="@android:color/holo_red_light"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/decline_request"
+            android:textSize="13sp"
+            android:textAllCaps="false"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
