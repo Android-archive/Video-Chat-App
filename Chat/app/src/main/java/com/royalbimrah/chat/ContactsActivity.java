@@ -114,7 +114,7 @@ public class ContactsActivity extends AppCompatActivity {
         FirebaseRecyclerAdapter<Contacts, ContactsViewHolder> firebaseRecyclerAdapter
                 = new FirebaseRecyclerAdapter<Contacts, ContactsViewHolder>(options) {
             @Override
-            protected void onBindViewHolder(@NonNull final ContactsViewHolder contactsViewHolder, int i, @NonNull Contacts contacts) {
+            protected void onBindViewHolder(@NonNull final ContactsViewHolder holder, int i, @NonNull Contacts contacts) {
                 final String listUserId = getRef(i).getKey();
 
                 usersRef.child(listUserId).addValueEventListener(new ValueEventListener() {
@@ -126,12 +126,12 @@ public class ContactsActivity extends AppCompatActivity {
                             userName = dataSnapshot.child("name").getValue().toString();
                             profileImage = dataSnapshot.child("image").getValue().toString();
 
-                            contactsViewHolder.userNameTxt.setText(userName);
-                            Picasso.get().load(profileImage).into(contactsViewHolder.profileImageView);
+                            holder.userNameTxt.setText(userName);
+                            Picasso.get().load(profileImage).into(holder.profileImageView);
 
                         }
 
-                        contactsViewHolder.callBtn.setOnClickListener(new View.OnClickListener() {
+                        holder.callBtn.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
                                 Intent callingIntent = new Intent(ContactsActivity.this, CallingActivity.class);
@@ -152,7 +152,7 @@ public class ContactsActivity extends AppCompatActivity {
             @NonNull
             @Override
             public ContactsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-                View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.find_friend_design, parent, false);
+                View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.contact_design, parent, false);
                 ContactsViewHolder viewHolder = new ContactsViewHolder(view);
                 return viewHolder;
             }

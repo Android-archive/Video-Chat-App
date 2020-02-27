@@ -28,6 +28,7 @@ public class ProfileActivity extends AppCompatActivity {
     private Button add_friend, decline_friend_request;
 
     private FirebaseAuth mAuth;
+    private String currentUserId;
     private String senderUserId;
     private String currentState = "new";
 
@@ -117,7 +118,6 @@ public class ProfileActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     if (currentState.equals("new")){
                         SendFriendRequest();
-
                     } 
                     if (currentState.equals("request_sent")){
                         CancelFriendRequest();
@@ -139,7 +139,8 @@ public class ProfileActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()){
                     contactsRef.child(receiverUserID).child(senderUserId)
-                            .child("Contacts").setValue("Saved").addOnCompleteListener(new OnCompleteListener<Void>() {
+                            .child("Contacts").setValue("Saved")
+                            .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){
@@ -199,7 +200,9 @@ public class ProfileActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()){
-                    friendRequestRef.child(receiverUserID).child(senderUserId).child("request_type").setValue("received").addOnCompleteListener(new OnCompleteListener<Void>() {
+                    friendRequestRef.child(receiverUserID).child(senderUserId)
+                            .child("request_type").setValue("received")
+                            .addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){
